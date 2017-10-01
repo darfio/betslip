@@ -1,15 +1,21 @@
 {
-    "name": "darfio/betslip",
-    "require": {
-        "ptrofimov/matchmaker" : "*"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "3.7.*"
-    },    
-    "autoload": {
-        "psr-4": {
-            "Betslip\\": "src/"
-        }
-    }   
-	
+    "packages": {
+            "1.0.0": {
+                        "name": "darfio/betslip",
+                        "version": "1.0.0",
+                        "description": "check betslip for errors",
+                        "require": {
+                            "ptrofimov/matchmaker" : "*"
+                        },
+                        "require-dev": {
+                            "phpunit/phpunit": "3.7.*"
+                        },    
+                        "autoload": {
+                            "psr-4": {
+                                "Betslip\\": "src/"
+                            }
+                        }   
+                        	
+                    }
+                }
 }
