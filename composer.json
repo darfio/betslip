@@ -1,21 +1,27 @@
 {
-    "packages": {
-            "1.0.0": {
-                        "name": "darfio/betslip",
-                        "version": "1.0.0",
-                        "description": "check betslip for errors",
-                        "require": {
-                            "ptrofimov/matchmaker" : "*"
-                        },
-                        "require-dev": {
-                            "phpunit/phpunit": "3.7.*"
-                        },    
-                        "autoload": {
-                            "psr-4": {
-                                "Betslip\\": "src/"
-                            }
-                        }   
-                        	
-                    }
-                }
+    "name": "darfio/betslip",
+    "type": "library",
+    "version": "1.0.0",
+    "description": "check betslip for errors",
+    "homepage": "https://github.com/darfio/betslip",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "darfio",
+            "email": "darfioit@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "ptrofimov/matchmaker" : "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },    
+    "autoload": {
+        "psr-4": {
+            "Betslip\\": "src/"
+        }
+    }   
+    	
 }
